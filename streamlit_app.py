@@ -26,7 +26,7 @@ fig.update_layout(xaxis_title = "DATA", yaxis_title = column.upper(), title = {"
 
 #SET PAGE STRUCTURE
 st.title("DADOS COVID - BRASIL")
-st.write("Nessa aplicação, o usuário tem a opção de escolher o estado e o tipo de informação mostrada no gráfico. Utilize o menu lateral para alterá-lo.")
+st.write("Nessa aplicação, o usuário tem a opção de escolher o estado e o tipo de informação mostrada no gráfico. Utilize o menu lateral para selecioná-los.")
 
 st.plotly_chart(fig, use_container_width = True)
 
