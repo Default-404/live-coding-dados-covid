@@ -3,4 +3,4 @@
 
 Projeto pratico que tem como objetivo desenvolver uma aplicação online com dados da Covid-19 utilizando apenas Python com bibliotecas open-source (pandas e Plotly) e plataformas gratuitas (Streamlit).
 
-![Project View](https://i.imgur.com/fEccGmx.png "Project View")
+![Project View](https://i.imgur.com/SezkqjM.png "Project View")
