@@ -5,4 +5,4 @@ Projeto prático que tem como objetivo desenvolver uma aplicação online com da
 
 Vá para a [aplicação](https://default-404-live-coding-dados-covid-streamlit-app-pri2x7.streamlitapp.com/).
 
-![Project Preview](https://i.imgur.com/SezkqjM.png "Project View")
+![Project Preview](https://i.imgur.com/SezkqjM.png "Project Preview")
