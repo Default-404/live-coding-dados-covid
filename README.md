@@ -1,5 +1,5 @@
 # 🎓 Live Coding DIO 🎓
-## "Compartilhando Gráficos Interativos da Covid-19 com Python"
+## "Compartilhando gráficos interativos da Covid-19 com Python"
 
 Projeto prático que tem como objetivo desenvolver uma aplicação online com dados da Covid-19 utilizando apenas Python com bibliotecas open-source (pandas e Plotly) e plataformas gratuitas (Streamlit).
 
