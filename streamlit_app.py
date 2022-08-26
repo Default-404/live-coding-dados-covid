@@ -9,7 +9,7 @@ df = pd.read_csv("https://raw.githubusercontent.com/wcota/covid19br/master/cases
 df = df.rename(columns = {"date": "Data", "newCases": "Novos casos", "newDeaths": "Novos óbitos", "totalCases_per_100k_inhabitants": "Casos por 100 mil habitantes", "deaths_per_100k_inhabitants": "Óbitos por 100 mil habitantes"})
 
 #SET STATE SELECTION
-listStates = list(df['state'].unique())
+listStates = list(df["state"].unique())
 listStates.sort()
 listStates.remove("TOTAL")
 listStates.insert(0, "TOTAL")
