@@ -3,7 +3,6 @@ import plotly.express as px
 import streamlit as st
 
 #READ DATASET
-#teste
 df = pd.read_csv("https://raw.githubusercontent.com/wcota/covid19br/master/cases-brazil-states.csv")
 
 #CHANGE COLUMNS NAMES
