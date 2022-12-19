@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "live-coding-dados-covid"
+version = "0.1.0"
+description = ""
+authors = ["Guilherme <guiemanoeloliveira@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "live_coding_dados_covid"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.16.0"
+plotly = "^5.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
