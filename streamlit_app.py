@@ -7,15 +7,15 @@ df = pd.read_csv("https://raw.githubusercontent.com/wcota/covid19br/master/cases
 
 df = df.rename(columns = {"date": "Data", "newCases": "Novos casos", "newDeaths": "Novos óbitos", "totalCases_per_100k_inhabitants": "Casos por 100 mil habitantes", "deaths_per_100k_inhabitants": "Óbitos por 100 mil habitantes"})
 
-listStates = list(df["state"].unique())
-listStates.sort()
-listStates.remove("TOTAL")
-listStates.insert(0, "TOTAL")
-state = st.sidebar.selectbox("Qual estado?", listStates)
+list_states = list(df["state"].unique())
+list_states.sort()
+list_states.remove("TOTAL")
+list_states.insert(0, "TOTAL")
+state = st.sidebar.selectbox("Qual estado?", list_states)
 df = df[df["state"] == state]
 
-listColumns = ["Novos casos", "Novos óbitos", "Casos por 100 mil habitantes", "Óbitos por 100 mil habitantes"]
-column = st.sidebar.selectbox("Qual tipo de informação?", listColumns)
+list_columns = ["Novos casos", "Novos óbitos", "Casos por 100 mil habitantes", "Óbitos por 100 mil habitantes"]
+column = st.sidebar.selectbox("Qual tipo de informação?", list_columns)
 
 fig = px.line(df, x = "Data", y = column, title = column + " - " + state)
 fig.update_layout(xaxis_title = "DATA", yaxis_title = column.upper(), title = {"x": 0.5})
